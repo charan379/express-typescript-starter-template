@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "ts-node -r tsconfig-paths/register server.ts",
-    "dev": "nodemon -r tsconfig-paths/register server.ts"
+    "dev": "set DEBUG=express-typescript-starter-template:* & nodemon -r tsconfig-paths/register server.ts"
   },
   "dependencies": {
     "cookie-parser": "~1.4.6",
