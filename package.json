@@ -1,0 +1,38 @@
+{
+  "name": "express-typescript-starter-template",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "ts-node -r tsconfig-paths/register server.ts",
+    "dev": "nodemon -r tsconfig-paths/register server.ts"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.6",
+    "debug": "~4.3.4",
+    "express": "~4.18.2",
+    "http-errors": "~2.0.0",
+    "morgan": "~1.10.0",
+    "pug": "^3.0.2",
+    "stylus": "0.59.0"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.3",
+    "@types/debug": "^4.1.7",
+    "@types/express": "^4.17.17",
+    "@types/http-errors": "^2.0.1",
+    "@types/morgan": "^1.9.4",
+    "@types/node": "^18.14.1",
+    "@types/stylus": "^0.48.38",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "concurrently": "^7.6.0",
+    "eslint": "^8.34.0",
+    "eslint-config-standard-with-typescript": "^34.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^3.14.2",
+    "typescript": "^4.9.5"
+  }
+}
